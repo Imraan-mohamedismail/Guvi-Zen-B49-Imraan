@@ -1,0 +1,29 @@
+1)window Object:
+
+>The window object is the global object in the browser environment. It represents the browser window or tab that contains the web page. 
+It acts as the root object for all global JavaScript variables, functions, and objects in the browser context.
+
+>Key characteristics of the window object:
+
+>It contains various properties and methods that are related to the browser window and its behavior, such as window.innerWidth and window.
+innerHeight to get the browser window's dimensions, and window.location to get the current URL.
+
+>All global variables and functions declared in the global scope become properties and methods of the window object. 
+For example, if you declare a global variable x, it becomes accessible as window.x.
+
+>The window object provides methods for controlling the browser window, such as window.open() to open a new browser window and window.close() to close the current window (if it was opened by a script).
+
+2)Document Object:
+
+The document object represents the HTML document that is currently loaded in the browser window. It is a part of the window object and provides access to the content and structure of the HTML document, allowing you to manipulate and interact with the elements on the web page.
+
+Key characteristics of the document object:
+
+>It contains properties and methods that represent the HTML elements on the page, such as document.getElementById() to access an element by its unique ID, and document.querySelector() to access an element using a CSS selector.
+
+>The document object allows you to dynamically modify the content and structure of the web page, such as adding or removing elements, changing the text of elements, or modifying their attributes.
+
+>It provides events to respond to user interactions and changes on the web page, such as click and submit events.
+
+>Unlike the window object, the document object is specific to the current web page and its content.
+
