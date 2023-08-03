@@ -1,0 +1,14 @@
+objects and its internal representation in Javascript:
+
+In JavaScript, objects are one of the most fundamental and versatile data types. They are used to store and manipulate data in the form of key-value pairs and can represent complex entities or data structures. Understanding how objects are internally represented in JavaScript is crucial for optimising code performance and avoiding potential pitfalls.
+
+Object Creation and Properties
+In JavaScript, objects can be created using various methods, such as object literal notation, constructor functions, and classes (introduced in ES6).
+
+Example:
+
+const person = {
+  name: 'John Doe',
+  age: 30,
+  gender: 'male'
+};

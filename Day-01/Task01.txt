@@ -1,0 +1,25 @@
+HTTP/1.1:
+
+1)Connection Multiplexing:
+In HTTP/1.1, each client request required a separate connection to the server.
+
+2)Request and Response Headers:
+With each request, HTTP/1.1 sent full headers, which could be quite large, even if only a small part of the data was needed.
+
+3)Lack of Server Push:
+In HTTP/1.1, the server could only respond to client requests. It had no way to proactively push resources to the client, even if they were required for rendering a page.
+
+
+HTTP/2:
+
+1)Multiplexed Streams:
+HTTP/2 introduced multiplexed streams within a single TCP connection. This enabled concurrent requests and responses, eliminating head-of-line blocking.
+
+2)Header Compression:
+HTTP/2 implemented header compression, reducing the size of headers by using a technique called HPACK.
+
+3)Server Push:
+One of the most notable features of HTTP/2 is server push. With this capability, the server can proactively send resources to the client before they are requested.
+
+4)Prioritisation:
+HTTP/2 introduced stream prioritisation, allowing clients to specify the importance of individual resources.
