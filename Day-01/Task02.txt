@@ -5,7 +5,7 @@ In JavaScript, objects are one of the most fundamental and versatile data types.
 Object Creation and Properties
 In JavaScript, objects can be created using various methods, such as object literal notation, constructor functions, and classes (introduced in ES6).
 
-Example:
+Object Example:
 
 const person = {
   name: 'John Doe',
